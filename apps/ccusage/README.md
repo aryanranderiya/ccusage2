@@ -1,3 +1,18 @@
+> **Fork note:** this is [`aryanranderiya/ccusage`](https://github.com/aryanranderiya/ccusage), a fork of [`ccusage/ccusage`](https://github.com/ccusage/ccusage) extended for a multi-agent, multi-machine setup. Everything below works as documented upstream — the fork **adds**:
+
+| Addition | Usage |
+| --- | --- |
+| `prime-agent` parser (`~/.prime` JSONL) | `ccusage prime daily` |
+| `fx` (Vercel) ledger parser | `ccusage fx daily` |
+| `opencode` / `opencode2` (SQLite + JSON, deduped) | `ccusage opencode daily` |
+| `pi` sessions parser | `ccusage pi daily` |
+| Multi-machine GitHub sync | `ccusage sync --repo <you>/ccusage-sync` |
+| Magnitude formatting (`68,442,263` → `68.44M`) | automatic |
+| `ccusage2` install alias | identical to `ccusage` |
+
+See [`FORK.md`](../FORK.md) for counting guarantees and internals.
+
+---
 <div align="center">
     <img src="https://cdn.jsdelivr.net/gh/ccusage/ccusage@main/docs/public/logo.svg" alt="ccusage logo" width="256" height="256">
     <h1>ccusage</h1>
