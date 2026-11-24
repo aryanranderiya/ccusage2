@@ -10,7 +10,7 @@
 | Magnitude formatting (`68,442,263` → `68.44M`) | automatic |
 | `ccusage2` install alias | identical to `ccusage` |
 
-See [`FORK.md`](FORK.md) for counting guarantees and internals.
+See [`FORK.md`](https://github.com/aryanranderiya/ccusage2/blob/main/FORK.md) for counting guarantees and internals.
 
 
 ### Screenshots
