@@ -1,4 +1,4 @@
-> **Fork note:** this is [`aryanranderiya/ccusage`](https://github.com/aryanranderiya/ccusage), a fork of [`ccusage/ccusage`](https://github.com/ccusage/ccusage) extended for a multi-agent, multi-machine setup. Everything below works as documented upstream — the fork **adds**:
+> **Fork note:** this is [`aryanranderiya/ccusage2`](https://github.com/aryanranderiya/ccusage2), a fork of [`ccusage/ccusage`](https://github.com/ccusage/ccusage) extended for a multi-agent, multi-machine setup. Everything below works as documented upstream — the fork **adds**:
 
 | Addition | Usage |
 | --- | --- |
@@ -10,7 +10,18 @@
 | Magnitude formatting (`68,442,263` → `68.44M`) | automatic |
 | `ccusage2` install alias | identical to `ccusage` |
 
-See [`FORK.md`](../FORK.md) for counting guarantees and internals.
+See [`FORK.md`](FORK.md) for counting guarantees and internals.
+
+
+### Screenshots
+
+Upstream `ccusage daily`, compact layout:
+
+![Upstream ccusage daily report](https://raw.githubusercontent.com/aryanranderiya/ccusage2/main/docs/images/ccusage-upstream-daily.png)
+
+This fork, the same command on the same machine:
+
+![ccusage2 fork daily report](https://raw.githubusercontent.com/aryanranderiya/ccusage2/main/docs/images/ccusage2-fork-daily.png)
 
 ---
 <div align="center">
